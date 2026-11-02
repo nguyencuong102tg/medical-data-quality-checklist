@@ -1,0 +1,5 @@
+id,status,note,issue_type,severity
+Q010,Accept,,,
+Q010,Reject,Duplicate id,duplicate,Medium
+Q011,,Missing status,format,Low
+Q012,Reject,,missing note,terminology,High
