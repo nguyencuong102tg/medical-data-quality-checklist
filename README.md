@@ -11,6 +11,17 @@ These examples are for portfolio demonstration and workflow improvement. They do
 - `templates/data_issue_report_template.md`
 - `examples/synthetic_review_example.md`
 
+## Runnable validator demo
+
+A small Python script validates annotation review CSV rows for required status, duplicate IDs, missing notes, and allowed issue labels.
+
+```bash
+python scripts/validate_annotation.py examples/annotation_sample_valid.csv
+python scripts/validate_annotation.py examples/annotation_sample_with_issues.csv
+```
+
+The first command should pass; the second intentionally shows validation errors.
+
 ## Suggested use
 - Standardize review language.
 - Catch common medical data issues: ambiguous answers, wrong units, unsupported claims, duplicated questions, unsafe advice.
