@@ -1,0 +1,5 @@
+id,status,note,issue_type,severity
+Q001,Accept,,,
+Q002,Accept with minor note,Tone unclear in explanation,language_quality,Low
+Q003,Reject,Duplicate of Q001,duplicate,Medium
+Q004,Escalate,Needs subject-matter review for treatment wording,safety,High
